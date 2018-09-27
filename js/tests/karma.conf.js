@@ -40,7 +40,7 @@ const detectBrowsers = {
 }
 
 const customLaunchers = {
-HeadlessChrome: {
+  HeadlessChrome: {
     base: 'ChromeHeadless',
     flags: ['--no-sandbox']
   },
